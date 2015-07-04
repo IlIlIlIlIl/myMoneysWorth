@@ -22,10 +22,10 @@ body {
 }
 
 #main {
-	width: 1000px;
+	width: 1200px;
 	position: absolute;
 	left: 50%;
-	margin-left: -500px;	
+	margin-left: -600px;
 }
 
 #main_header {
@@ -74,14 +74,36 @@ body {
 
 
 #main_content {
-	width: 992px;
-	height: 450px;
-	padding: 4px;
 	margin: 0px;
 }
 
 #main_content_budget {
 	position: relative;
-	background-color: rgb(150,250,150);
-	height: 450px;
+	height: 550px;
+	width: 1200px;
 }
+
+.node {
+	border: solid 1px white;
+	overflow: hidden;
+	position: absolute;
+
+	color: rgb(225,225,225);	
+	cursor: pointer;
+}
+
+.nodeText {
+	font-family: 'Fjalla One', sans-serif;
+	margin: 4px;
+}
+
+.nodeCost {
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 2px;
+}
+
+.nodeContrib {
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 2px;
+}
+
